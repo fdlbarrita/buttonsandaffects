@@ -1,0 +1,34 @@
+button {
+  background-color: tomato;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 40px;
+  margin: 50px 0;
+  /*display block  */
+  transition: 1.5s ease;
+}
+
+button:nth-child(1):hover{
+  background-color: darkred;
+  transition: 0.5s ease;
+
+}
+
+button:nth-child(2){
+  background-color: red;
+}
+
+button:nth-child(3){
+  background-color: crimson;
+
+}
+
+button:nth-child(4){
+  background-color: darkred;
+}
+
+/* button:nth-of-type(2n){
+  background: none;
+  color: black;
+} */
