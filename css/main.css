@@ -8,6 +8,7 @@ button {
   /*makes the box shadow disapear  */
   box-shadow: 0 5px 8px 10px #999;
   /*display block  */
+  transform: translateY(-5px);
 
   transition: 1.5s ease;
 }
@@ -15,6 +16,7 @@ button {
 
 button:nth-child(1):hover {
   background-color: darkred;
+  transform: translateY(0);
   box-shadow: 0 0 0 #999;
 
 
