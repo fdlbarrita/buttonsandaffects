@@ -5,16 +5,18 @@ button {
   border: none;
   padding: 20px 40px;
   margin: 50px 0;
+  /*makes the box shadow disapear  */
+  box-shadow: 0 5px 8px 10px #999;
   /*display block  */
+
   transition: 1.5s ease;
 }
-
 
 
 button:nth-child(1):hover {
   background-color: darkred;
   box-shadow: 0 0 0 #999;
-   
+
 
 }
 
