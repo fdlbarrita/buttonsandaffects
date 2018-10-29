@@ -1,3 +1,17 @@
+.depress-btn {
+  box-shadow: 0 5px 10px #999;
+  transition: 0.5s ease;
+  transform: translateY(-5px);
+
+}
+
+.depress-btn:hover {
+  background-color: darkred;
+  transform: translateY(0);
+  box-shadow: 0 0 0 #999;
+
+}
+
 button {
   background-color: tomato;
   color: white;
@@ -5,22 +19,9 @@ button {
   border: none;
   padding: 20px 40px;
   margin: 50px 0;
-  /*makes the box shadow disapear  */
-  box-shadow: 0 5px 8px 10px #999;
-  /*display block  */
-  transform: translateY(-5px);
-
-  transition: 1.5s ease;
 }
 
 
-button:nth-child(1):hover {
-  background-color: darkred;
-  transform: translateY(0);
-  box-shadow: 0 0 0 #999;
-
-
-}
 
 button:nth-child(2){
   background-color: red;
