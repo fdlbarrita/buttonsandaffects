@@ -11,14 +11,41 @@
   box-shadow: 0 0 0 #999;
 
 }
+.bg-tomato{
+  background: tomato;
+}
+
+.capsule-btn {
+  border-radius: 0;
+
+}
+
+.capsule-btn:hover {
+  border-radius: 50px;
+}
+/* depress-btn:hover a {
+  text-transform: lowercase;
+} */
+
+.capsule-btn{
+border-radius: 0;
+
+}
+
+
 
 button {
   background-color: tomato;
   color: white;
   text-transform: uppercase;
-  border: none;
+  border: 0 solid tomato;
   padding: 20px 40px;
   margin: 50px 0;
+}
+
+button:hover {
+  background: none;
+  border: 1px solid tomato;
 }
 
 
