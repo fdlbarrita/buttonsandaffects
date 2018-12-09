@@ -61,6 +61,11 @@ border-radius: 0;
 
 }
 
+.anim-btn:hover {
+  animation: bgChange 1s ease-in-out infinite;
+
+}
+
 
 
 .anim-btn:hover span {
@@ -69,7 +74,7 @@ border-radius: 0;
 
 @keyframes textWiggle {
 
-  25%{
+  25% {
    transform: rotate(10deg);
   }
 
@@ -81,6 +86,22 @@ border-radius: 0;
     transform: rotate(0deg);
   }
 
+} 
+
+@keyframes bgChange {
+  25% {
+    background-color: purple;
+  }
+  50% {
+    background-color: crimson;
+
+  }
+  75%{
+    background-color: darkred;
+  }
+  100%{
+    background-color: red;
+  }
 }
 
 button {
