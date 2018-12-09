@@ -62,7 +62,7 @@ border-radius: 0;
 }
 
 .anim-btn:hover {
-  animation: bgChange 1s ease-in-out infinite;
+  animation: bgChange 3s ease-in-out infinite alternate;
 
 }
 
