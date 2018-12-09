@@ -1,6 +1,6 @@
 .depress-btn {
   box-shadow: 0 5px 10px #999;
-  transition: 0.5s ease;
+  transition: 0.5s ease; 
   transform: translateY(-5px);
 
 }
@@ -42,6 +42,7 @@ border-radius: 0;
 } */
 .capsule-btn::after {
   content: '';
+  transition: 0.5s ease;
   position: absolute;
   width: 50%;
   height: 100%;
@@ -51,6 +52,36 @@ border-radius: 0;
   mix-blend-mode: color;
 }
 
+.capsule-btn:hover:after {
+  opacity: 1;
+}
+
+.anim-btn span {
+  display: block;
+
+}
+
+
+
+.anim-btn:hover span {
+   animation: textWiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes textWiggle {
+
+  25%{
+   transform: rotate(10deg);
+  }
+
+  50% {
+   transform: rotate(-10deg);
+
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+
+}
 
 button {
   background-color: tomato;
@@ -68,7 +99,7 @@ button {
 
 
 
-button:nth-child(2){
+ /*button:nth-child(2){
   background-color: red;
 }
 
@@ -79,8 +110,8 @@ button:nth-child(3){
 
 button:nth-child(4){
   background-color: darkred;
-}
-
+} 
+*/
 /* button:nth-of-type(2n){
   background: none;
   color: black;
