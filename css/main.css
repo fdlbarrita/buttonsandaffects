@@ -18,10 +18,27 @@ nav a {
   0%{
     background-color: tomato;
   }
+  60%{
+    background-color: tomato;
+  }
   100%{
     background-color: #ff634761;
   }
-}
+} 
+
+@keyframes anchorChange {
+  0%{
+    font-size: initial;
+  }
+  60%{
+    font-size: : initial;
+  }
+  100%{
+    font-size:  12px;
+  }
+} 
+
+
 
 
 
