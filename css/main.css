@@ -39,6 +39,37 @@ nav a {
 } 
 
 
+/*#box {
+  height: 150px;
+  width: 150px;
+  background-color: navy;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%)
+  box-shadow: -100% -100% 0 black;
+}
+*/
+body{
+  position: relative;
+  height: 100vh;
+}
+
+#box {
+  height: 150px;
+  width: 150px;
+  background-color: navy;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  box-shadow: -150px -150px 0 black, 150px -150px 0
+  black, -150px 150px 0 black, 150px 150px 0
+  black;
+
+}
+
 
 
 
